@@ -1,0 +1,57 @@
+# ~/.config/starship.toml
+
+[git_metrics]
+added_style = "bold green"
+disabled = false
+
+[git_status]
+conflicted = "⚔️ "
+ahead = "🏎️ 💨 ×${count}"
+behind = "🐢 ×${count}"
+diverged = "🔱 🏎️ 💨 ×${ahead_count} 🐢 ×${behind_count}"
+untracked = "🛤️  ×${count}"
+stashed = "📦 "
+modified = "📝 ×${count}"
+staged = "🗃️  ×${count}"
+renamed = "📛 ×${count}"
+deleted = "🗑️  ×${count}"
+style = "bright-white"
+format = "$all_status$ahead_behind"
+
+[aws]
+disabled = false
+
+[battery]
+disabled = false
+full_symbol = "🔋"
+charging_symbol = "⚡"
+discharging_symbol = "💀"
+
+#[cpu]
+#disabled = false
+
+[docker_context]
+disabled = false
+
+[git_branch]
+disabled = false
+
+#[git_status]
+#disabled = false
+
+[golang]
+disabled = false
+
+[kubernetes]
+disabled = false
+
+[memory_usage]
+disabled = false
+
+[python]
+disabled = false
+
+[terraform]
+disabled = false
+
+
